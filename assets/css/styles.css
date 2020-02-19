@@ -226,8 +226,8 @@ header nav li:last-child{
  	Our Work Section
 ---------------------*/
 
-.оur-work{
-	background-color: #fff;
+#AboutMe{
+	background-color: #323232;
 }
 
 .our-work .grid li{
@@ -239,6 +239,14 @@ header nav li:last-child{
 	background-size: cover;
 	background-position: center;
 	background-color: #333;
+}
+
+#AboutMe .title{
+    color: #fff
+}
+
+#AboutMe p{
+    color: #f2f2f2
 }
 
 .our-work .grid li.small{
@@ -266,7 +274,7 @@ header nav li:last-child{
 ----------------------*/
 
 .features{
-	background-color: #f7f7f7;
+	background-color: #161616;
 }
 
 .features .grid li{
@@ -291,6 +299,11 @@ header nav li:last-child{
     margin: 0;
 }
 
+.features .title{
+    color: #fff;
+}
+
+
 @media (max-width: 1000px){
 
 	.features .grid li{
@@ -303,7 +316,9 @@ header nav li:last-child{
 	}
 
 }
-
+.features .grid .fa-cubes{
+    background: url('assets/img/web.png') no-repeat top left;
+}
 
 @media (max-width: 600px){
 
@@ -449,6 +464,7 @@ footer p a{
 	}
 
 }
+
 
 
 /* -- Demo ads -- */
