@@ -231,7 +231,8 @@ header nav li:last-child{
 }
 
 .our-work .grid li{
-	padding: 20px;
+	padding-left: 60px;
+    padding-right: 60px;
 	height: 150px;
 	border-radius: 3px;
 
@@ -258,11 +259,11 @@ header nav li:last-child{
 }
 
 .our-work .grid li span hr{
-	width: 50%;
+	width: 70%;
 	height: 2px;
 	background-color: #2196F3;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 10px;
     margin-top: 15px;
 }
@@ -300,7 +301,7 @@ header nav li:last-child{
 ----------------------*/
 
 .features{
-	background-color: #161616;
+	background-color: #262626;
 }
 
 .features .grid li{
@@ -316,7 +317,7 @@ header nav li:last-child{
 }
 
 .features .grid li h4{
-	color: #555;
+	color: #d8d8d8;
     font-size: 20px;
     margin-bottom: 25px;
 }
@@ -342,8 +343,10 @@ header nav li:last-child{
 	}
 
 }
-.features .grid .fa-cubes{
-    background: url('../img/web.png') no-repeat top left;
+
+
+.features .grid li img{
+    margin-bottom: 10px;
 }
 
 @media (max-width: 600px){
@@ -361,7 +364,7 @@ header nav li:last-child{
 --------------------*/
 
 .reviews{
-	background-color: #353535;
+	background-color: #161616;
 }
 
 .reviews .quote{
