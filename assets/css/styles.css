@@ -227,20 +227,45 @@ header nav li:last-child{
 ---------------------*/
 
 #AboutMe{
-	background-color: #323232;
+	background-color: #353535;
 }
 
 .our-work .grid li{
 	padding: 20px;
-	height: 350px;
+	height: 150px;
 	border-radius: 3px;
 
 	background-clip: content-box;
 	background-size: cover;
 	background-position: center;
-	background-color: #333;
+   
 }
 
+.our-work .grid li span{
+    align-items: center;
+}
+
+.our-work .grid li span p{
+    background-clip: content-box;
+	background-size: cover;
+	background-position: center;
+}
+
+.our-work .grid li span img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-work .grid li span hr{
+	width: 50%;
+	height: 2px;
+	background-color: #2196F3;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
 #AboutMe .title{
     color: #fff
 }
@@ -248,6 +273,7 @@ header nav li:last-child{
 #AboutMe p{
     color: #f2f2f2
 }
+
 
 .our-work .grid li.small{
 	flex-basis: 40%;
@@ -317,7 +343,7 @@ header nav li:last-child{
 
 }
 .features .grid .fa-cubes{
-    background: url('assets/img/web.png') no-repeat top left;
+    background: url('../img/web.png') no-repeat top left;
 }
 
 @media (max-width: 600px){
@@ -335,7 +361,7 @@ header nav li:last-child{
 --------------------*/
 
 .reviews{
-	background-color: #fff;
+	background-color: #353535;
 }
 
 .reviews .quote{
