@@ -13,6 +13,7 @@ html{
 	color: #555;
 }
 
+
 ul, nav{
 	list-style: none;
 }
@@ -124,6 +125,7 @@ header nav{
 }
 
 header nav li{
+    font-family: 'Quicksand', sans-serif;
 	margin: 0 15px;
 }
 
@@ -379,6 +381,11 @@ header nav li:last-child{
 	background-color: #161616;
 }
 
+.reviews .title{
+    color: #fff;
+  
+    
+}
 .reviews .quote{
 	text-align: center;
 	width: 80%;
