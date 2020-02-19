@@ -38,6 +38,10 @@ a.btn{
 	text-align: center;
 }
 
+p{
+    	font-family: 'Quicksand', sans-serif;
+}
+
 hr{
 	width: 150px;
 	height: 2px;
@@ -234,6 +238,7 @@ header nav li:last-child{
     color: #fff;
     margin-top: -15px;
     margin-bottom: 55px;
+    	font-family: 'Quicksand', sans-serif;
 }
 .our-work .grid li{
 	padding-left: 60px;
@@ -255,6 +260,7 @@ header nav li:last-child{
     background-clip: content-box;
 	background-size: cover;
 	background-position: center;
+    	font-family: 'Quicksand', sans-serif;
 }
 
 .our-work .grid li span img{
