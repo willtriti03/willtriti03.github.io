@@ -230,6 +230,11 @@ header nav li:last-child{
 	background-color: #353535;
 }
 
+.our-work  h2{
+    color: #fff;
+    margin-top: -15px;
+    margin-bottom: 55px;
+}
 .our-work .grid li{
 	padding-left: 60px;
     padding-right: 60px;
@@ -259,11 +264,12 @@ header nav li:last-child{
 }
 
 .our-work .grid li span hr{
-	width: 70%;
+	width: 45px;
 	height: 2px;
 	background-color: #2196F3;
-    margin-left: 15%;
-    margin-right: 15%;
+
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
     margin-top: 15px;
 }
