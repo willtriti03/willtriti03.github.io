@@ -513,7 +513,7 @@ header nav li:last-child{
     transform:scale(1.2);
 }
 
-.contact div hr{
+.contact div .line{
 	width: 45px;
 	height: 2px;
 	background-color: #2196F3;
