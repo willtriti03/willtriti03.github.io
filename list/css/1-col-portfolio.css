@@ -3,6 +3,10 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
  */
+html{
+	font: normal 16px sans-serif;
+	color: #555;
+}
 
 body {
   padding-top: 54px;
@@ -18,5 +22,9 @@ body {
   margin-bottom: 15px;
 }
 .navbar-brand{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-collapse ul li a{
 	font-family: 'Quicksand', sans-serif;
 }
