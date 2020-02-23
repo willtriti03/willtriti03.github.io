@@ -5,11 +5,52 @@
  */
 
 body {
-  padding-top: 54px;
+    padding-top: 54px;
+    background-color: #161616;
+    color: #000000;
+    
 }
 
 @media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+    body {
+        padding-top: 56px;
+    }
 }
+
+
+.container{
+    width: 100%;
+}
+
+.container .row{
+    width: 100%;
+}
+
+.container .row .col-lg-9{
+    width: 100%;
+}
+
+.pagination {
+    margin-bottom: 15px;
+}
+
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-collapse ul li a {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pagination .page-item {
+
+    background-color: #353535;
+}
+
+/*-------------
+ 	List Group
+-------------*/
+    
+
+
+
