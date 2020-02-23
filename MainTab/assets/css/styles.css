@@ -124,6 +124,7 @@ header h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
+
 header nav {
     display: flex;
 }
@@ -202,7 +203,7 @@ header nav li:last-child {
 }
 
 .hero h3 {
-    font: normal 28px 'Open Sans', sans-serif;
+   
     margin-bottom: 40px;
 }
 
@@ -396,8 +397,8 @@ header nav li:last-child {
     opacity: 1;
     transition: all 0.5s ease-in-out;
 
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .context.hidden li.spaced {
@@ -405,6 +406,46 @@ header nav li:last-child {
 }
 
 .context.hidden li.ghost {
+    opacity: 0;
+    max-width: 0;
+}
+
+
+.preWrapper {
+    position: fixed;
+    left: 50%;
+    top: 70%;
+    margin-top: 30px;
+    
+    transform: translateX(-50%) translateY(-50%);
+    list-style: none;
+    border-bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.pre {
+    display: inline-block;
+}
+
+.pre li {
+
+    float: left;
+    color: #fff;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.pre.hidden li.spaced {
+    padding-left: 0;
+}
+
+.pre.hidden li.ghost {
     opacity: 0;
     max-width: 0;
 }

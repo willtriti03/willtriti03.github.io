@@ -23,3 +23,18 @@ $(function() {
     }
   });
 });
+
+$(function() {
+  var text = $(".pre");
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 60) {
+        text.addClass("hidden");
+      
+    } else {
+      text.removeClass("hidden");
+    }
+  });
+});
+

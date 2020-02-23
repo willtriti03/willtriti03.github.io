@@ -3,28 +3,93 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
  */
-html{
-	font: normal 16px sans-serif;
-	color: #555;
+html {
+    font: normal 16px sans-serif;
+    color: #555;
 }
 
 body {
-  padding-top: 54px;
+    background-color: #161616;
+    color: #fff;
+    padding-top: 54px;
 }
 
 @media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+    body {
+        padding-top: 56px;
+    }
 }
 
 .pagination {
-  margin-bottom: 15px;
-}
-.navbar-brand{
-	font-family: 'Quicksand', sans-serif;
+    margin-bottom: 15px;
 }
 
-.navbar-collapse ul li a{
-	font-family: 'Quicksand', sans-serif;
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-collapse ul li a {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pagination .page-item {
+
+    background-color: #353535;
+}
+/*-------------
+ 	Row
+-------------*/
+.row .col-md-5 p{
+    color: #858585;
+}
+
+/*-------------
+ 	Footer
+-------------*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #414a4f;
+    padding: 60px 0;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+footer ul li {
+    margin: 0 8px;
+}
+
+footer ul li:first-child {
+    margin-left: 0;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+}
+
+footer p a {
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+
+    footer {
+        padding: 80px 15px;
+    }
+
 }
