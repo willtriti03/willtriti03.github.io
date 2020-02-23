@@ -19,24 +19,7 @@ body {
         padding-top: 56px;
     }
 }
-
-.pagination {
-    margin-bottom: 15px;
-}
-
-.navbar-brand {
-    font-family: 'Quicksand', sans-serif;
-}
-
-.navbar-collapse ul li a {
-    font-family: 'Quicksand', sans-serif;
-}
-
-.pagination .page-item {
-
-    background-color: #353535;
-}
-/*-------------
+/*--------
  	Row
 -------------*/
 .row .col-md-5 p{

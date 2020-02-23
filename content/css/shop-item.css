@@ -30,22 +30,7 @@ body {
     width: 100%;
 }
 
-.pagination {
-    margin-bottom: 15px;
-}
 
-.navbar-brand {
-    font-family: 'Quicksand', sans-serif;
-}
-
-.navbar-collapse ul li a {
-    font-family: 'Quicksand', sans-serif;
-}
-
-.pagination .page-item {
-
-    background-color: #353535;
-}
 
 /*-------------
  	List Group
