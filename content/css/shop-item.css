@@ -30,12 +30,26 @@ body {
     width: 100%;
 }
 
+.my-4{
+    color: #fff;
+}
+
 
 
 /*-------------
  	List Group
 -------------*/
-    
 
+
+.list-group-item{
+    color: #fff;
+    background-color: #262626;
+}
+
+
+.list-group-item:hover{
+    color: #000;
+    background-color: #1498f3;
+}
 
 
