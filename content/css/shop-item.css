@@ -46,8 +46,14 @@ body {
 /*-------------
  	List Group
 -------------*/
-
-
+.sidebar .col-lg-3{
+    width: 100%;
+    
+}
+.list-group{
+    width: 100%;
+    
+}
 .list-group-item{
     color: #fff;
     background-color: #262626;
@@ -58,6 +64,12 @@ body {
 .list-group-item:hover{
     color: #000;
     background-color: #1498f3;
+}
+
+.menu{
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 
