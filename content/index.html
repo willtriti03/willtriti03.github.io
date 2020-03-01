@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
-<script src="js/close.js"></script>
+
 
 <body>
 
@@ -52,8 +52,19 @@
             </div>
         </div>
     </nav>
-        <div class="sidebar">
-       
+    <div class="sidebar">
+
+
+    </div>
+    <!-- Page Content -->
+    <div class="container">
+
+
+        <div class="row">
+
+
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-3">
                 <h1 class="my-4">Project Name</h1>
                 <div class="list-group">
                     <a href="#" class="list-group-item">Main</a>
@@ -61,29 +72,22 @@
                     <a href="#" class="list-group-item">Source Code</a>
                     <a href="#" class="list-group-item">Demo Video</a>
 
-          
-                <div class="menu cross menu--1">
-                    <label>
-                        <input type="checkbox">
-                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="50" cy="50" r="30" />
-                            <path class="line--1" d="M0 40h62c13 0 6 28-4 18L35 35" />
-                            <path class="line--2" d="M0 50h70" />
-                            <path class="line--3" d="M0 60h62c13 0 6-28-4-18L35 65" />
-                        </svg>
-                    </label>
+
+                    <div class="menu cross menu--1">
+                        <label onclick="btnClicked()">
+                            <input type="checkbox">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    
+                                <circle cx="50" cy="50" r="30" />
+                                <path class="line--1" d="M0 40h62c13 0 6 28-4 18L35 35" />
+                                <path class="line--2" d="M0 50h70" />
+                                <path class="line--3" d="M0 60h62c13 0 6-28-4-18L35 65" />
+                            </svg>
+                        </label>
+                    </div>
+
                 </div>
-
             </div>
-        </div>
-    <!-- Page Content -->
-    <div class="container">
-
-        
-        <div class="row">
-
-
-            <!-- /.col-lg-3 -->
 
             <div class="col-lg-9">
 
@@ -134,12 +138,11 @@
 
     </div>
     <!-- /.container -->
-
-
+    <div class="top">
+         <img class="topimg"src="assets/up.png" aline="center">
+    </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+<script src="js/close.js"></script>
+</body></html>
