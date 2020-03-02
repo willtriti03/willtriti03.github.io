@@ -1,0 +1,8 @@
+#closer{
+    position: fixed;
+    width: 100%;
+    height: 0%;
+    top: 0%;
+    background-color: #26262690;
+    z-index: 10000;
+}

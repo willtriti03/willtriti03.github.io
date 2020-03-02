@@ -383,6 +383,7 @@ header nav li:last-child {
     width: 100%;
     text-align: center;
     display: inline-block;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -497,4 +498,15 @@ header nav li:last-child {
     background-position: center;
     font-family: 'Quicksand', sans-serif;
 
+}
+
+/*tip*/
+
+.tip{
+    position: fixed;
+    bottom: 5%;
+
+    color: antiquewhite;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
