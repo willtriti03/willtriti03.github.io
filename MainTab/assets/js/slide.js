@@ -38,3 +38,6 @@ $(function() {
   });
 });
 
+$(document).scrollTop(0);
+$(document).scrollTop($(document).height());
+
