@@ -3,7 +3,7 @@ $(function() {
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 50) {
+    if (scroll >= 45) {
       text.removeClass("hidden");
     } else {
       text.addClass("hidden");

@@ -11,7 +11,7 @@ $(document).mousedown(function clicked() {
 $(document).mouseup(function released() {
     isTrue = false;
     clearInterval(timer);
-    bar.style.height = 0 + '%';
+    bar.style.width = 0 + '%';
 });
 
 function holding() {
