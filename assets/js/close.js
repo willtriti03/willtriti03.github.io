@@ -18,7 +18,7 @@ function holding() {
     if (isTrue)
         time += 1;
     if(time >100){
-        bar.style.height = (time-100)/2 + '%';
+        bar.style.width = (time-100)/2 + '%';
     }
     
     if (time > 300) {
@@ -30,6 +30,6 @@ function holding() {
 }
 
 function longCl() {
-    bar.style.height = 0 + '%';
+    bar.style.width = 0 + '%';
     history.back();
 }
