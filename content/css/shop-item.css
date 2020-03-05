@@ -41,6 +41,17 @@ body {
     left: 10%;
 }
 
+/*......카드.......*/
+.card .card-header{
+    color: #161616;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.card  .vv{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
 
 /*-------------
  	List Group
@@ -70,6 +81,14 @@ body {
     
     margin-left: 35%;
     margin-right: 35%;
+}
+
+.top img{
+    position: fixed;
+    right: 12%;
+    bottom: 10%;
+    width: 60px;
+    height: 60px;
 }
 
 
