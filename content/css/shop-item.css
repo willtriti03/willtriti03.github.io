@@ -54,7 +54,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: 'Noto Sans KR', sans-serif;
-    ;
+
 }
 
 
@@ -81,10 +81,54 @@ body {
 
 }
 
+
 .card #source {
     margin: 20px;
     background-color: #161616;
     height: 400px;
+}
+
+.update a {
+    color: #787878;
+}
+
+/*--------본문--------*/
+
+#planHead .card-body {
+    font-family: 'Noto Sans KR', sans-serif;
+    align-items: flex-start;
+}
+
+#planHead .card-body h3 {
+    color: #242424;
+    font-weight: bold;
+        margin-bottom: 9px;
+}
+
+#planHead .card-body h5 {
+    color: #242424;
+    margin-bottom: 0px;
+}
+
+#planHead .card-body h6 {
+    color: #242424;
+    margin-bottom: 0px;
+}
+
+#planHead .card-body .oneLine {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 0px;
+}
+
+#planHead .card-body .textImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 /*-------------
