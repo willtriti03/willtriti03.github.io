@@ -8,7 +8,7 @@ body {
     padding-top: 54px;
     background-color: #161616;
     color: #000000;
-    
+
 }
 
 @media (min-width: 992px) {
@@ -18,101 +18,119 @@ body {
 }
 
 
-.container{
+.container {
     width: 100%;
 }
 
-.container .row{
+.container .row {
     width: 100%;
 
 }
 
-.container .row .col-lg-9{
+.container .row .col-lg-9 {
     width: 100%;
 }
 
-.my-4{
+.my-4 {
     color: #fff;
 }
 
-.sidebar{
+.sidebar {
     position: fixed;
     width: 20%;
     left: 10%;
 }
 
 /*......카드.......*/
-.card .card-header{
+.card .card-header {
     color: #161616;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
 }
-.card .card-body{
+
+.card .card-body {
     display: flex;
     justify-content: center;
     align-items: center;
-     flex-direction: column;
+    flex-direction: column;
+    font-family: 'Noto Sans KR', sans-serif;
+    ;
 }
-.card  .vv{
+
+
+.card .card-body .card-title {
+    font-weight: bold;
+    color: #161616;
+}
+
+.card .vv {
     width: 100%;
     height: auto;
 }
 
-.card  .gitimg{
+.card .gitimg {
     width: 128px;
     height: 128px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.card .card-body h2{
+.card .card-body h2 {
     margin-top: 30px;
     font-family: 'Quicksand', sans-serif;
 
 }
 
-.card #source{
+.card #source {
     margin: 20px;
     background-color: #161616;
     height: 400px;
 }
+
 /*-------------
  	List Group
 -------------*/
-.col-lg-3{
+.col-lg-3 {
 
-     font-family: 'Quicksand', sans-serif;
-    
+    font-family: 'Quicksand', sans-serif;
+
 }
-.list-group{
+
+.col-lg-3 .my-4 {
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+
+}
+
+.list-group {
     width: 100%;
-    
+
 }
-.list-group-item{
+
+.list-group-item {
     color: #fff;
     background-color: #262626;
     width: 100%;
-     font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
-.list-group-item:hover{
+.list-group-item:hover {
     color: #000;
     background-color: #1498f3;
 }
 
-.menu{
-    
+.menu {
+
     margin-left: 35%;
     margin-right: 35%;
 }
 
-.top img{
+.top img {
     position: fixed;
     right: 12%;
     bottom: 10%;
     width: 60px;
     height: 60px;
 }
-
-
