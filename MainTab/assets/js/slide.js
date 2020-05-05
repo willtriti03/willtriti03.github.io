@@ -3,7 +3,7 @@ $(function() {
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 45) {
+    if (scroll >= 35) {
       text.removeClass("hidden");
     } else {
       text.addClass("hidden");
@@ -16,7 +16,7 @@ $(function() {
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 60) {
+    if (scroll >= 40) {
       text.removeClass("hidden");
     } else {
       text.addClass("hidden");
@@ -29,7 +29,7 @@ $(function() {
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 60) {
+    if (scroll >= 40) {
         text.addClass("hidden");
       
     } else {
