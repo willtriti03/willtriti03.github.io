@@ -170,6 +170,10 @@ body {
     margin-left: 35%;
     margin-right: 35%;
 }
+video{
+    background: #161616;
+    
+}
 
 .top img {
     position: fixed;
