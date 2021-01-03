@@ -26,7 +26,7 @@ function holding() {
         clearInterval(timer);
         longCl();
     }
-    console.log(time);
+ 
 }
 
 function longCl() {

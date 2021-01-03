@@ -17,8 +17,9 @@ function showSlides(n) {
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+    slides[(slideIndex - 1)%slides.length].style.display = "block";
+    dots[(slideIndex - 1)%slides.length].className += " active";
+       console.log("슬라이드 "+n);
 }
 
 // Next/previous controls
