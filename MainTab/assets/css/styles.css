@@ -239,7 +239,7 @@ header nav li:last-child {
 
 .our-work {
     background-color: #353535;
-    height: 70vh;
+    height: 100%;
     width: 100%;
     font-family: 'Muli', sans-serif;
     text-align: center;
@@ -254,8 +254,7 @@ header nav li:last-child {
 }
 
 .our-work .grid li {
-    padding-left: 60px;
-    padding-right: 60px;
+
     height: 150px;
     border-radius: 3px;
 
@@ -390,15 +389,15 @@ header nav li:last-child {
 
 .context {
     display: inline-block;
+    align-content: center;
 }
 
 .context li {
 
-    float: left;
     color: #fff;
     opacity: 1;
     transition: all 0.5s ease-in-out;
-
+    display: inline-block;
     margin-right: 50px;
     margin-left: 50px;
 }
