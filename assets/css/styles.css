@@ -9,6 +9,7 @@
 }
 
 html{
+    font-family: 'Noto Sans KR', sans-serif;
 	font: normal 16px sans-serif;
 	color: #555;
 }
@@ -74,9 +75,15 @@ section{
 	}
 
 }
+.korean {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.japanese {
+    font-family: "Mplus 2px";
+}
 
 section h3.title{
-	color: #414a4f;
+	color: #f7f7f7;
 	text-transform: capitalize; 
 	font: bold 32px 'Open Sans', sans-serif;
 	margin-bottom: 35px;
@@ -200,6 +207,7 @@ header nav li:last-child{
 .hero h3{
 	 font-family: 'Quicksand', sans-serif;
 	margin-bottom: 40px;
+    
 }
 
 .hero a.btn{
@@ -242,6 +250,7 @@ header nav li:last-child{
     margin-top: -15px;
     margin-bottom: 55px;
     	font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 .our-work .grid li{
 	padding-left: 60px;
@@ -318,7 +327,7 @@ header nav li:last-child{
 ----------------------*/
 
 .features{
-	background-color: #262626;
+	background-color: #060606;
 }
 
 .features .grid li{
@@ -376,49 +385,6 @@ header nav li:last-child{
 
 
 
-/*--------------------
- 	Reviews Section
---------------------*/
-
-.reviews{
-	background-color: #060606;
-}
-
-.reviews .title{
-   color: #fff;
-  
-    
-}
-.reviews .quote{
-	text-align: center;
-	width: 80%;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    padding: 0;
-}
-
-.reviews .author{
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-
-.reviews .author:last-child{
-    margin-bottom: 0;
-}
-
-@media (max-width: 1000px){
-
-	.reviews .quote{
-		font-size: 20px;
-	}
-
-	.reviews .author{
-	    font-size: 16px;
-	}
-
-}
 
 /*--------------------
  	Spec Section
@@ -440,7 +406,11 @@ header nav li:last-child{
 ---------------------*/
 
 .contact{
-	background-color: #f7f7f7;
+	background-color: #262626;
+}
+.contact h3{
+    color: #f7f7f7;
+    
 }
 
 .contact form{
@@ -458,7 +428,7 @@ header nav li:last-child{
 	flex: 1;
 	margin-right: 30px;
 	font-size: 18px;
-	color: #555;
+	color: #f7f7f7;
 }
 
 .contact form .btn{
@@ -526,9 +496,47 @@ header nav li:last-child{
     margin-top: 15px;
 }
 
+/*--------------------
+ 	Reviews Section
+--------------------*/
+
+.reviews{
+	background-color: #f7f7f7;
+    
+}
+
+.reviews .title{
+   color: #000;
+  
+    
+}
+.reviews .quote{
+    text-align: left;
+	width: 30%;
+    word-break: break-all;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.reviews .author{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.reviews .author:last-child{
+    margin-bottom: 0;
+}
+
 
 /* -- Demo ads -- */
 
 @media (max-width: 1200px) {
 	#bsaHolder{ display:none;}
 }
+
+
