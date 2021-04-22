@@ -9,7 +9,6 @@
 }
 
 html{
-    font-family: 'Noto Sans KR', sans-serif;
 	font: normal 16px sans-serif;
 	color: #555;
 }
@@ -396,6 +395,24 @@ header nav li:last-child{
 
 .features .grid li img{
     margin-bottom: 10px;
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.features .grid li img:hover{
+    margin-bottom: 10px;
+     -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
 }
 
 @media (max-width: 600px){
@@ -570,6 +587,20 @@ header nav li:last-child{
     line-height: 1.5;
     margin-bottom: 20px;
     padding: 0;
+}
+@media (max-width: 1000px){
+    .reviews .quote{
+    text-align: left;
+	width: 80%;
+    word-break: break-all;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 0;
+}
 }
 
 .reviews .author{
