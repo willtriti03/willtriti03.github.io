@@ -4,7 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
  */
 html {
-    font: normal 16px sans-serif;
+     font-family: 'Noto Sans KR', sans-serif;
+    font: normal 16px;
     color: #555;
 }
 
