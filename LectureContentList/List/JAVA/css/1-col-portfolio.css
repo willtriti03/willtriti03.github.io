@@ -23,6 +23,17 @@ body {
 /*--------
  	Row
 -------------*/
+#selc{
+    color: #161616;
+    background-color: antiquewhite;
+}
+
+.row{
+
+    font-family: 'Noto Sans KR', sans-serif;
+
+
+}
 .row .col-md-5 p{
     color: #858585;
 }
