@@ -26,6 +26,28 @@ body {
     color: #858585;
 }
 
+.row .col-md-5 a{
+    background: #121212;
+    border-color: #858585;
+    color: #ffffff;
+}
+.row .col-md-5 a:hover{
+    background: #d5d5d5;
+    border-color: #121212;
+    color: #000000;
+
+}
+
+.page-item .page-link{
+    background: #121212;
+    color: #858585;
+
+}
+
+
+
+
+
 
 .page-link{
     color: antiquewhite;
