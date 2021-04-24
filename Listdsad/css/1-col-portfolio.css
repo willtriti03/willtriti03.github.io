@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/template-overviews/1-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
+html {
+    font: normal 16px sans-serif;
+    color: #555;
+}
+
+body {
+    background-color: #161616;
+    color: #fff;
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+/*--------
+ 	Row
+-------------*/
+.row .col-md-5 p{
+    color: #858585;
+}
+
+.row .col-md-5 a{
+    background: #121212;
+    border-color: #858585;
+    color: #ffffff;
+}
+.row .col-md-5 a:hover{
+    background: #d5d5d5;
+    border-color: #121212;
+    color: #000000;
+
+}
+
+.page-item .page-link{
+    background: #121212;
+    color: #858585;
+
+}
+
+
+
+
+
+
+.page-link{
+    color: antiquewhite;
+    background-color: #161616;
+}
+#selc{
+    color: #161616;
+    background-color: antiquewhite;
+}
+
+.row{
+
+    font-family: 'Noto Sans KR', sans-serif;
+
+
+}
