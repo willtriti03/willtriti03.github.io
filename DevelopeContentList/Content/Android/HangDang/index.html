@@ -19,6 +19,8 @@
     <!-- Custom styles for this template -->
     <link href="../../../../content/css/shop-item.css" rel="stylesheet">
     <link href="../../../../assets/css/close.css" rel="stylesheet">
+    <link href="../../../../content/css/slide.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
@@ -80,7 +82,7 @@
             <div class="col-lg-9">
 
                 <div class="card mt-4" id="Main">
-                    <img class="card-img-top img-fluid" id="main" src="assets/dw.PNG" alt="">
+                    <img class="card-img-top img-fluid" id="main" src="../../../../ContentAsset/wonder/android.png" alt="">
                     <div class="card-body">
                         <h3 class="card-title">
                             황당변화
@@ -91,7 +93,84 @@
                     </div>
                 </div>
                 <!-- /.card -->
+                <div class="card card-outline-secondary my-4" id="slideShow">
+                    <div class="card-header">
+                        ImageShow
+                    </div>
+                    <div class="card-body">
+                        <div class="slideshow-container">
 
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 9</div>
+                                <img src="../../../../ContentAsset/99in/slide0001.jpg" style="width:100%">
+                                <div class="text"></div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 9</div>
+                                <img src="../../../../ContentAsset/99in/slide0002.jpg" style="width:100% opacity: 1" />
+                                <div class="text"></div>
+                            </div>
+
+                               <div class="mySlides fade">
+                                <div class="numbertext">3 / 9</div>
+                                <img src="../../../../ContentAsset/99in/slide0004.jpg" style="width:100%" />
+                                <div class="text">Caption Three</div>
+                            </div>
+                               <div class="mySlides fade">
+                                <div class="numbertext">4 / 9</div>
+                                <img src="../../../../ContentAsset/99in/slide0005.jpg" style="width:100%" />
+                                <div class="text">Caption Three</div>
+                            </div>
+                               <div class="mySlides fade">
+                                <div class="numbertext">5 / 9</div>
+                                <img src="../../../../ContentAsset/99in/slide0006.jpg" style="width:100%" />
+                                <div class="text">Caption Three</div>
+                            </div>
+                               <div class="mySlides fade">
+                                <div class="numbertext">6 / 9</div>
+                                <img src="../../../../ContentAsset/99in/slide0007.jpg" style="width:100%" />
+                                <div class="text">Caption Three</div>
+                            </div>
+                               <div class="mySlides fade">
+                                <div class="numbertext">7 / 9</div>
+                                <img src="../../../../ContentAsset/99in/slide0008.jpg" style="width:100%" />
+                                <div class="text">Caption Three</div>
+                            </div>
+                               <div class="mySlides fade">
+                                <div class="numbertext">8 / 9</div>
+                                <img src="../../../../ContentAsset/99in/slide0009.jpg" style="width:100%" />
+                                <div class="text">Caption Three</div>
+                            </div>
+                               <div class="mySlides fade">
+                                <div class="numbertext">9 / 9</div>
+                                <img src="../../../../ContentAsset/99in/slide0010.jpg" style="width:100%" />
+                                <div class="text">Caption Three</div>
+                            </div>
+                    
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                            <span class="dot" onclick="currentSlide(6)"></span>
+                            <span class="dot" onclick="currentSlide(7)"></span>
+                            <span class="dot" onclick="currentSlide(8)"></span>
+                            <span class="dot" onclick="currentSlide(9)"></span>
+      
+                        </div>
+                    </div>
+                </div>
                 <div class="card card-outline-secondary my-4" id="planHead">
                     <div class="card-header">
                         Planning
@@ -128,13 +207,17 @@
                         <br>
                         <h3>회고</h3>
                         <h6>
-                            이떄 기획자의 발표가 아직도 기억에 남는다.<br>
-                            엄청나게 굳어서 딱딱한 우리 기획자님의 발표...... 놀랍게도 발표상을 수상하였다.<br>
-                            이때 혼자 1인 개발로 12시간안에 개발을 완료했어야했기 때문에 미동도 않고 하루종일 앉아서 개발했던걸로 카페인으로 연명하며 개발했던것이 기억이 난다.<br><br>
-                            그나마 다행이라고 느낀 건 대부분이 백그라운드 테스크 작업이었기 때문에 UI작업 분량이 적어 시간안에 개발을 끝마칠 수 있었다 <br>
+                            이 팀은 기획자가 이상한 나라의 앨리스라는 주제를 받고 멘탈이 무너져 기획이 대회 종료 12시간 전쯤 나왔기 때문에 시간이 촉박했다. 혼자 1인 개발인데 엎친데 덮친격으로 디자이너도 손이 느린 편이었다.<br>
+                            12시간안에 개발을 완료했어야했기 때문에 미동도 않고 하루종일 앉아서 개발했던걸로 카페인으로 연명하며 개발했던것이 기억이 난다.<br><br>
+                            그나마 다행이라고 느낀 건 대부분이 백그라운드 테스크 작업이었기 때문에 UI작업 분량이 적어 시간안에 개발을 끝마칠 수 있었다. <br>
                         </h6>               
                         <br>
                         <br>
+                        <h3>포지션</h3>
+                        <h6>Android Native 개발자</h6>
+                        <br>
+                        <br>
+                       
                         <h3>제작언어</h3>
                         <h6>Android Native</h6>
                         <br>
@@ -162,9 +245,7 @@
                         Demo Video
                     </div>
                     <div class="card-body">
-                        <video class="vv" poster="assets/pre.png" controls>
-                            <source src="assets/video.mp4" type="video/mp4">
-                        </video>
+                        <iframe width="720" height="480" src="https://www.youtube.com/embed/aQrGwT4_zaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
 
                 </div>
