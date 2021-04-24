@@ -5,8 +5,13 @@ function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
+    
     n = (slideIndex - 1)%slides.length;
-
+    
+    if(n<0){ 
+        n = slides.length-1;
+        slideIndex = 10;
+    }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
